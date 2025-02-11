@@ -77,5 +77,5 @@ jobs:
           git add .
           git commit -m "${{ env.RELEASE_NAME }}"
           git branch -M mrs
-          git remote add origin https://github-action:$GITHUB_TOKEN@github.com/shiyu1314/mihomo-mrs.git
+          git remote add origin https://github-action:$GITHUB_TOKEN@github.com/Breeze-openwrt/mihomo-mrs.git
           git push -u origin mrs --force
